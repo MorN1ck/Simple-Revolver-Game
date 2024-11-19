@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revolver Online</title>
+    <link rel="stylesheet" href="Rev.css">
+    
+</head>
+<body>
+    <div class="game">
+        <div class="man">
+            <h1>Player 1</h1>
+            <img id="man1" src="man.png" alt="man1" class="active">
+            <div id="count">
+                <p id="p1">0</p>
+            </div>
+        </div>
+        <div class="revolve">
+            <img id="rev" src="rev1.png" alt="revolver" onclick="rev()" >
+            <p id="c">Патрон: 0</p>
+            <input id='button' type="button" value="Начать заново" onclick="restart()">
+         </div>
+        <div class="man">
+            <h1>Player 2</h1>
+            <img id="man2" src="man.png" alt="man2">
+            <div id="count">
+                <p id="p2">0</p>
+            </div>
+        </div> 
+        
+    </div>
+    
+    <script src="Rev.js"></script>
+</body>
+</html>
